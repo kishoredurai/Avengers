@@ -1,6 +1,6 @@
 const baseUrl = "https://gateway.marvel.com:443/v1/public";
-const publicApiKey = "2dba7204495cdd9616afc5f8aeecfb28";
-const privateApiKey = "ada0e14596007e87668be70a76493fe02f8be6d8";
+const publicApiKey = "0445d3ae17d321a4448c7d79cf79ac58";
+const privateApiKey = "894492125a6c67f23e1c1a2befedd72b41b071b5";
 
 const hash = generateHash(publicApiKey, privateApiKey);
 console.log(hash);
